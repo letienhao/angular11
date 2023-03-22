@@ -93,12 +93,21 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/bootstrap/dist/css/bootstrap.css",
+              "node_modules/bootstrap/dist/js/bootstrap.js",
+              "node_modules/bootstrap/dist/js/bootstrap.js"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "node_modules/eva-icons/eva.min.js"
+            ]
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "22d9d259-7039-4d42-a44a-295231a4ea65"
   }
 }

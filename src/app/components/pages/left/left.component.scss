@@ -1,0 +1,34 @@
+header{
+   width: 100%;
+   border: 1px solid black;
+   padding: 16px 5px 10px 10px;
+      height: 60px;
+   div{
+      font-weight: 800;
+   }
+  }
+
+.menu__shop{
+  width: 100%;
+  border: 1px solid black;
+  height: calc(100vh - 49px);
+  span{
+    font-weight: 600;
+    margin-left: 10px;
+  }
+  .__shop,.__cart,.__profile{
+    padding: 5px;
+  }
+  .__shop,
+  .__cart:active,
+  .__profile:active{
+    border-top: 2px solid #0FEAF8;
+    border-bottom: 2px solid #0FEAF8 ;
+    height: 62px;;
+
+
+    .icon__shop{
+      margin-left: 10px;
+    }
+  }
+}
