@@ -12,6 +12,7 @@ import { MainComponent } from './components/pages/main/main.component';
 import { LeftComponent } from './components/pages/left/left.component';
 import { MainHeaderComponent } from './components/pages/main-header/main-header.component';
 import { MainContentComponent } from './components/pages/main-content/main-content.component';
+import { ShopService } from './services/shop.service';
 
 @NgModule({
   declarations: [
@@ -25,13 +26,8 @@ import { MainContentComponent } from './components/pages/main-content/main-conte
     MainHeaderComponent,
     MainContentComponent,
   ],
-  imports: [
-    BrowserModule,
-    RouterModule,
-    AppRoutingModule,
-    FormsModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+  imports: [BrowserModule, RouterModule, AppRoutingModule, FormsModule],
+  providers: [ShopService],
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
